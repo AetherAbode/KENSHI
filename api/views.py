@@ -1,3 +1,4 @@
+from django.db import models 
 import logging
 from rest_framework import viewsets, status, generics
 from rest_framework.decorators import api_view, permission_classes
